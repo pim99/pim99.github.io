@@ -1,5 +1,5 @@
 .corpo_menu{
-    background-color: #464b4c; 
+    background-color: #434343; 
     
     height: 55px;
     margin-top: -20px;
@@ -40,6 +40,11 @@
         border-bottom: tomato 2px solid;
        
        
+    }
+    .logo{
+        float: left;
+        height: 40px;
+        margin-left: -145px;
     }
     .link{
         color: white;
