@@ -1,6 +1,6 @@
 .corpo_menu{
     background-color: #434343; 
-    
+    cursor:url(cur1.cur) 4 8,auto;
     height: 55px;
     margin-top: -20px;
     display: block;
@@ -35,7 +35,7 @@
     }
     .link:hover{
         background: #4d5354;
-
+        cursor:url(cur2.cur) 4 8,pointer;
         background: rgba(255, 255, 255, 0.05);
         border-bottom: tomato 2px solid;
        
@@ -46,6 +46,7 @@
         height: 40px;
         margin-left: -145px;
     }
+    
     .link{
         color: white;
         text-decoration: none;
@@ -61,7 +62,5 @@
     }
     body{
         margin: 0;
+        
     }
-h1{
-   color:red;
-}
