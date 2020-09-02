@@ -2,44 +2,52 @@
     background-color: #434343; 
     cursor:url(cur1.cur) 4 8,auto;
     height: 55px;
-    margin-top: -20px;
-    display: block;
-
+    width: 100%;
+    position: fixed;
+    top: 0;
+    
  
 
     }
     
     .menu{
         list-style:none;
-        text-align: center;
-        text-transform: uppercase;
-        padding: 9px;
+        
+        
+        margin-top: 20px;
         font-size: 18px;
         margin-left: 140px;
-         
+        
     }
     .li_menu{
-        margin-top: 9px;
-        display: inline-block;
+       
+        display:inline-block;
         right: 50px;
-        text-indent: -4px;
-         
+        text-indent: -20px;
+        margin-left: 40px;
+      
     
     }
     .li_logar{
-        margin-top: 9px;
+        
         display: block;
         right: 50px;
         text-indent: -1px;
         float: right;
+        margin-right: 4px;
+        text-indent: 3px;
 
     }
     .link:hover{
         background: #4d5354;
         cursor:url(cur2.cur) 4 8,pointer;
         background: rgba(255, 255, 255, 0.05);
-        border-bottom: tomato 2px solid;
-       
+        border-bottom: gold 2px solid;
+        
+        padding-right: 10px;
+        padding-bottom: 13px;
+        padding-top: 19px;
+        
        
     }
     .logo{
@@ -53,15 +61,15 @@
         text-decoration: none;
         padding: 10px;
         
-        padding-right: 10px;
-        padding-bottom: 15px;
-        padding-top: 17px;
-        border-left: 1px solid #4d5354;
-        border-left: 1px solid rgba(255, 255, 255, 0.06);
-        border-right: 1px solid #353939;
-        border-right: 1px solid rgba(0, 0, 0, 0.2);
+        
+      
+        
     }
     body{
         margin: 0;
+       
         
+    }
+    h1{
+        margin-top: 50%;
     }
