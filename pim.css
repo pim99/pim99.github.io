@@ -74,3 +74,25 @@
     h1{
         margin-top: 50%;
     }
+.caixa_de_texto{
+        padding-top: 10px;
+        color: white;
+      float: right;
+      margin-right: 20%;
+      word-wrap: break-word;
+      width: 300px;
+      height: 200px;
+      
+      font-size: 20px;
+    }
+    
+    .corpo_moeda{
+        margin-top: 4%;
+        height: 400px;
+        
+        background-image: url(moeda.jpg);
+        background-size: cover;
+        background-position: center ;
+        
+          
+      }
