@@ -1,0 +1,29 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: left;
+    padding: 12px;
+    cursor: pointer;
+}
+
+li a:hover {
+    background-color: black;
+    color: white;
+}
+
+@media only screen and (min-width: 768px) {
+    li {
+        float: left;
+    }
+}
+
+input[type='submit'], button {
+    margin: 6px 0 0 6px;
+}

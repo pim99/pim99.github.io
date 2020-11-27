@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <title>Home</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="../base/dsi.css" />
+  <link rel="stylesheet" type="text/css" href="home.css" />
+</head>
+
+<body onload="inicializar()">
+  <!-- Menu -->
+  <div class="row">
+    <div class="col-3"></div>
+    <div class="col-3">
+      <ul>
+        <li><a href="./home.html">Início</a></li>
+        <li><a onclick="logoff()">Sair</a></li>
+      </ul>
+    </div>
+    <div class="col-3">
+      <h4 id="saudacao" class="right"></h4>
+    </div>
+    <div class="col-3"></div>
+  </div>
+  <!-- Conteúdo Principal -->
+  <div class="row">
+    <!-- 25% à esquerda -->
+    <div class="col-3"></div>
+
+    <!-- 50% para o formulário -->
+    <div class="col-6">
+      <h1 class="center">Home</h1>
+      <div class="row">
+        <div class="col-2">
+          <label for="nome">Tipo:</label>
+        </div>
+        <div class="col-10">
+          <input id="radioPf" type="radio" name="tipoCliente" value="PF" checked>
+          <label for="radioPf">Pessoa Física</label>
+          
+          <input id="radioPj" type="radio" name="tipoCliente" value="PJ">
+          <label for="radioPj">Pessoa Jurídica</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-2">
+          <label for="email">Email:</label>
+        </div>
+        <div class="col-10">
+          <input id="email" type="email" placeholder="Digite o seu email" disabled />
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-2">
+          <label for="nome">Nome:</label>
+        </div>
+        <div class="col-10">
+          <input id="nome" type="text" placeholder="Digite o seu nome completo" />
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-2">
+          <label for="documento">Documento:</label>
+        </div>
+        <div class="col-10">
+          <input id="documento" type="text" placeholder="Digite o seu documento" />
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-2">
+          <label for="telefone">Telefone:</label>
+        </div>
+        <div class="col-10">
+          <input id="telefone" type="tel" placeholder="Digite o seu telefone" />
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-2">
+          <label for="nome">Interesses:</label>
+        </div>
+        <div id="interesses" class="col-10">
+          <!-- Conteúdo inserido dinamicamente -->
+        </div>
+      </div>
+      <button onclick="salvar()">Salvar</button>
+    </div>
+
+    <!-- 25% à direita -->
+    <div class="col-3"></div>
+  </div>
+
+  <!-- Levando em conta boas práticas e performance, estamos importando nossos scripts no fim do Body -->
+  <script src="../base/dsi.js"></script>
+  <script src="home.js"></script>
+</body>
+
+</html>
