@@ -5,12 +5,8 @@
     width: 100%;
     position: fixed;
     top: 0;
-    z-index: 1;
+    
  
-
-    }
-    .container{
-        margin-top: 50px;
 
     }
     
@@ -47,11 +43,11 @@
         cursor:url(cur2.cur) 4 8,pointer;
         background: rgba(255, 255, 255, 0.05);
         border-bottom: gold 2px solid;
-        color: white;
-        padding-right: 8px;
-        padding-bottom: 8px;
-        padding-top: 20px;
-        text-decoration: none;
+        
+        padding-right: 10px;
+        padding-bottom: 13px;
+        padding-top: 19px;
+        
        
     }
     .logo{
@@ -71,18 +67,14 @@
         
     }
     body{
-
-        margin-top:6%;
-    }
-    
-    .investimento{
-        background-image: url(img/compra.jpg);
+        margin: 0;
+       
         
-        background-position: center ;
     }
-    
-   
-    .caixa_de_texto{
+    h1{
+        margin-top: 50%;
+    }
+.caixa_de_texto{
         padding-top: 10px;
         color: white;
       float: right;
@@ -95,7 +87,7 @@
     }
     
     .corpo_moeda{
-        margin-top: 3%;
+        margin-top: 4%;
         height: 400px;
         
         background-image: url(moeda.jpg);
@@ -104,54 +96,3 @@
         
           
       }
-
-      .corpo_compra{
-       color: gold;
-        border-style: groove;
-        border-color:gold;
-        margin-top: 10%;
-        margin-left: 10%;
-        margin-right: 10%;
-        background-color: #434343; 
-        
-        
-      }
-      .lista2{
-
-     padding-left:10%;
-     margin-top:-21%;
-      }
-      .input_display{
-          margin-left:10px;
-      }
-    .textoAjuda{
-       margin-left:15%;
-        margin-top:-20%;
-        float:left;
-        word-wrap: break-word;
-
-    }
-    .button_envia:hover{
-      border-color:gold;
-
-    }
-    .button_envia{
-    width: 100px;
-
-    }
-      .envia{
-          float:left;
-          padding-left:20%;
-          margin-top: -3%;
-      }
-      .compra{
-       
-        padding-left:20%;
-        margin-top: -1%;
-
-      }
-      .botao1{
-        margin-left:11px;
-
-      }
-      
