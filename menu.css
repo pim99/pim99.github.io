@@ -1,0 +1,265 @@
+.corpo_menu{
+    background-color: #434343; 
+    cursor:url(cur1.cur) 4 8,auto;
+    height: 55px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+ 
+
+    }
+    .container{
+        margin-top: 50px;
+
+    }
+    
+    .menu{
+        list-style:none;
+        
+        
+        margin-top: 20px;
+        font-size: 18px;
+        margin-left: 140px;
+        
+    }
+    .li_menu{
+       
+        display:inline-block;
+        right: 50px;
+        text-indent: -20px;
+        margin-left: 40px;
+      
+    
+    }
+    .li_logar{
+        
+        display: block;
+        right: 50px;
+        text-indent: -1px;
+        float: right;
+        margin-right: 4px;
+        text-indent: 3px;
+
+    }
+    .link:hover{
+        background: #4d5354;
+        cursor:url(cur2.cur) 4 8,pointer;
+        background: rgba(255, 255, 255, 0.05);
+        border-bottom: gold 2px solid;
+        color: white;
+        padding-right: 8px;
+        padding-bottom: 8px;
+        padding-top: 20px;
+        text-decoration: none;
+       
+    }
+    .logo{
+        float: left;
+        height: 40px;
+        margin-left: -145px;
+        margin-top:-10px;
+    }
+    
+    .link{
+        color: white;
+        text-decoration: none;
+        padding: 10px;
+        
+        
+      
+        
+    }
+    body{
+
+        margin-top:6%;
+        
+    }
+    .autera{
+
+        background-image: url(img/autera.jpg);
+        background-position: center, right ;
+        background-size: cover;
+    }
+    
+    .investimento{
+        background-image: url(img/compra.jpg);
+        
+        background-position: center ;
+    }
+    
+   
+    .caixa_de_texto{
+        padding-top: 10px;
+        color: white;
+      float: right;
+      margin-right: 20%;
+      word-wrap: break-word;
+      width: 300px;
+      height: 200px;
+      
+      font-size: 20px;
+    }
+    
+    .corpo_moeda{
+        margin-top: 3%;
+        height: 400px;
+        background-image: url(moeda.jpg);
+        
+        background-size: cover;
+        background-position: center ;
+        
+          
+      }
+      .index{
+          
+          margin-bottom: 2%;
+        margin-top: 0%;
+        height: 100%;
+        color: white;
+        background-image: url(img/fundohomejpg.jpg);
+        background-size: cover;
+        background-position: center ;
+
+      }
+      .indexp{
+          margin-left: 2%;
+      }
+      .borda{
+        
+          
+          word-wrap: break-word;
+          
+          margin-left: 4%;
+          margin-right: 4%;
+      }
+      .indexlink{
+   text-align: center;
+   
+
+      }
+      .indexlink2{
+          color: white;
+          
+      }
+      .indexlink2:hover{
+
+        color: gold;
+      }
+      .indexh2{
+          text-align: center;
+         
+      }
+      .indexh3{
+       font-size: 20px;
+       margin-left: 2%;
+
+      }
+  
+      .corpo_compra{
+        
+       color: white;
+        border-style: groove;
+        border-color:gold;
+        margin-top: 10%;
+        margin-left: 10%;
+        margin-right: 10%;
+        height: 420px;
+        width: 80%;
+        
+        background-color: #434343; 
+        
+        
+      }
+      .lista2{
+
+     padding-left:10%;
+     margin-top:-21%;
+      }
+      .input_display{
+          margin-left:10px;
+      }
+    .textoAjuda{
+       margin-left:13%;
+        margin-top:-20%;
+        float:left;
+        word-wrap: break-word;
+
+    }
+    .textoAjuda2{
+        word-wrap: break-word;
+        float: right;
+        margin-left: 10%;
+        margin-top:2%;
+        width: 70%;
+     }
+    .button_envia:hover{
+      border-color:gold;
+
+    }
+    .button_envia{
+    width: 100px;
+
+    }
+    .input{
+
+        margin-left:8%;
+    }
+    .linha{
+        background-color: white;
+        
+       
+       
+        
+    }
+      .envia{
+          float: left;
+          margin-left: -12%;
+          margin-top: 5%;
+      }
+      
+      .botao1{
+        margin-left:11px;
+
+      }
+      
+.bit{
+    background-image: url(img/bitfundo.jpg);
+    
+    background-size: cover;
+        
+
+}
+.bitfoto{
+    width: 250px;
+    border-radius: 12px;
+    margin-top: 5%;
+    margin-left: 5%;
+    border-style: outset;
+    float: left;
+}
+.bitfoto:hover{
+    border-style: inset;
+}
+.bith3{
+
+    margin-top: 3%;
+   
+   margin-left: 50%;
+    
+}
+.bitborda{
+    word-wrap: break-word;
+    color: white;
+    
+    
+    
+}
+.bitp{
+
+margin-left:24% ;
+margin-right: 8%;
+
+
+}
+    

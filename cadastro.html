@@ -5,48 +5,26 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Fortnet</title>
         <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="menu.css">
     </head>
     <body>
-        <header>
-            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-                <a class="navbar-brand" href="index.html"><img src="img/Bitnet.JPG" width="50" height="50" class="d-inline-block align-top" alt="Fortnet" title="Fortnet"></a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" 
-                aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
-                <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse">
-                    <ul class="navbar-nav mr-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="index.html">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#quemSomos">Quem Somos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#contato">Contato</a>
-                        </li>
-                    </ul>
-                    <form class="form-inline my-2 my-lg-0">
-                        <ul class="navbar-nav mr-auto">
-                            <li class="nav-item">
-                                <div class="dropdown">
-                                    <button class="btn btn-outline-light" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                      Abrir Conta
-                                    </button>
-                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                      <a class="dropdown-item" href="cadastro.html">Pessoa Fisica</a>
-                                      <a class="dropdown-item" href="#">Pessoa Juridica</a>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="login.html">Acessar Conta</a>
-                            </li>
-                        </ul>
-                    </form>
-                </div>
-            </nav>
-        </header>
+        
+        <div class="corpo_menu">
+            <ul class="menu">
+                <li class="li_img"> <img class="logo" src="logo.PNG"> </li>
+                <li class="li_menu"> <a class="link" href="index.html">Home </a> </li>
+                <li class="li_menu"> <a class="link" href="conhesa.html">Conheça-nos </a> </li>
+                <li class="li_menu"> <a class="link" href="investimentos.html"> Ivestimentos</a> </li>
+                
+                <li class="li_menu"> <a class="link" href="dados_da_conta.html"> Dados Da Conta</a> </li>
+                 
+                <li class="li_logar"> <a class="link" href="cadastro.html">Cadastre-se</a></li>
+                 <li class="li_logar"> <a class="link" href="login.html">logar</a></li>
+                     
+            </ul>
+                
+             </div>
+       
         <div class="container">
             <div class="card shadow border-secondary m-5">
                 <form action="" method="POST" class="m-5 formulario">
@@ -95,111 +73,8 @@
                             </div>
                         </div>
                     </div>
-                    <hr class="mt-5 mb-5 border-secondary">
-                    <h5 class="heading-small text-muted mb-5">Endereço</h5>
-                    <div class="row">
-                        <div class="col-2">
-                            <div class="form-group">
-                                <label class="form-control-label" for="cep">Cep</label>
-                                <input type="search" id="cep" class="form-control border-secondary" minlength="9" maxlength="9" placeholder="00000-000" onkeypress="mascaraCep(this);" required>
-                            </div>
-                        </div>
-                        <div class="col-5">
-                            <div class="form-group">
-                                <label class="form-control-label" for="logradouro">Logradouro</label>
-                                <input type="text" id="logradouro" class="form-control border-secondary" required>
-                            </div>
-                        </div>
-                        <div class="col-2">
-                            <div class="form-group">
-                                <label class="form-control-label" for="inputNumero">Número</label>
-                                <input type="text" id="inputNumero" class="form-control border-secondary" required>
-                            </div>
-                        </div>
-                        <div class="col-3">
-                            <div class="form-group">
-                                <label class="form-control-label" for="inputComp">Complemento</label>
-                                <input type="text" id="inputComp" class="form-control border-secondary">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-2">
-                            <div class="form-group">
-                                <label class="form-control-label" for="uf">Uf</label>
-                                <input type="text" id="uf" class="form-control border-secondary" disabled>
-                            </div>
-                        </div>
-                        <div class="col-5">
-                            <div class="form-group">
-                                <label class="form-control-label" for="localidade">Municipio</label>
-                                <input type="text" id="localidade" class="form-control border-secondary" disabled>
-                            </div>
-                        </div>
-                        <div class="col-5">
-                            <div class="form-group">
-                                <label class="form-control-label" for="bairro">Bairro</label>
-                                <input type="text" id="bairro" class="form-control border-secondary" required>
-                            </div>
-                        </div>
-                    </div>
-                    <hr class="mt-5 mb-5 border-secondary">
-                    <h5 class="heading-small text-muted mb-5">Dados Bancários</h5>
-                    <div class="row">
-                        <div class="col-4">
-                            <div class="form-group">
-                                <label for="banco">Banco</label>
-                                <select class="form-control border-secondary" id="banco">
-                                    <option>Selecione o banco</option>
-                                    <option>Banco 1</option>
-                                    <option>Banco 2</option>
-                                    <option>Banco 3</option>
-                                    <option>Banco 4</option>
-                                    <option>Banco 5</option>
-                                </select>
-                            </div>
-                        </div>
-                        <div class="col-4">
-                            <div class="form-group">
-                                <label class="form-control-label" for="agencia">Agência</label>
-                                <input type="text" id="agencia" class="form-control border-secondary" maxlength="4" required>
-                            </div>
-                        </div>
-                        <div class="col-4">
-                            <div class="form-group">
-                                <label class="form-control-label" for="conta">Conta</label>
-                                <input type="text" id="conta" class="form-control border-secondary" required>
-                            </div>
-                        </div>
-                    </div>
-                    <hr class="mt-5 mb-5 border-secondary">
-                    <h5 class="heading-small text-muted mb-5">Interesses</h5>
-                    <div class="row">
-                        <div class="col-3 text-center">
-                            <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="checkbox" id="bitcoin" value="opcao1">
-                                <label class="form-check-label" for="bitcoin">Bitcoin</label>
-                            </div>
-                        </div>
-                        <div class="col-3 text-center">
-                            <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="checkbox" id="altcoin" value="opcao2">
-                                <label class="form-check-label" for="altcoin">Altcoin</label>
-                            </div>
-                          </div>
-                        <div class="col-3 text-center">
-                            <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="checkbox" id="dolar" value="opcao3">
-                                <label class="form-check-label" for="dolar">Dolar</label>
-                            </div>
-                          </div>
-                        <div class="col-3 text-center">
-                            <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="checkbox" id="ouro" value="opcao4">
-                                <label class="form-check-label" for="ouro">Ouro</label>
-                            </div>
-                        </div>
-                    </div>
+                    
+                    
                     <hr class="mt-5 mb-5 border-secondary">
                     <h5 class="heading-small text-muted mb-5">Acesso</h5>
                     <div class="row">
