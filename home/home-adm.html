@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <title>Home</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="../base/dsi.css" />
+  <link rel="stylesheet" type="text/css" href="home-adm.css" />
+</head>
+
+<body onload="buscarUsuarios()">
+  <!-- Menu -->
+  <div class="row">
+    <div class="col-2"></div>
+    <div class="col-4">
+      <ul>
+        <li><a href="./home-adm.html">Início</a></li>
+        <li><a href="./../relatorios/relatorios.html">Relatórios</a></li>
+        <li><a onclick="logoff()">Sair</a></li>
+      </ul>
+    </div>
+    <div class="col-4">
+      <h4 id="saudacao" class="right"></h4>
+    </div>
+    <div class="col-2"></div>
+  </div>
+  <!-- Conteúdo Principal -->
+  <div class="row">
+    <div class="col-2"></div>
+
+    <div class="col-8">
+      <h1 class="center">Home Administrativa</h1>
+
+      <div id="cabecalho" class="row header">
+        <div class="col-1 center"><strong>ID</strong></div>
+        <div class="col-4 center"><strong>Nome</strong></div>
+        <div class="col-4 center"><strong>Email</strong></div>
+        <div class="col-1 center"><strong>Tipo</strong></div>
+        <div class="col-2 center"><strong>Detalhar</strong></div>
+      </div>
+
+      <div id="gridUsuarios" >
+        <!-- Linhas inseridas dinamicamente... -->
+      </div>
+    </div>
+
+    <div class="col-2"></div>
+  </div>
+  <!-- Dialog de Detalhamento de Usuario -->
+  <dialog id="usuarioDialog">
+    <h2 class="center">Dados Cliente</h2>
+    <div class="row">
+      <div class="col-3">
+        Tipo:
+      </div>
+      <div class="col-9">
+        <strong id="dialogTipo">TODO</strong>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-3">
+        Nome:
+      </div>
+      <div class="col-9">
+        <strong id="dialogNome">TODO</strong>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-3">
+        Documento:
+      </div>
+      <div class="col-9">
+        <strong id="dialogDocumento">TODO</strong>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-3">
+        Email:
+      </div>
+      <div class="col-9">
+        <strong id="dialogEmail">TODO</strong>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-3">
+        Telefone:
+      </div>
+      <div class="col-9">
+        <strong id="dialogTelefone">TODO</strong>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-3">
+        Interesses:
+      </div>
+      <div class="col-9">
+        <strong id="dialogInteresses">TODO</strong>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <button id="dialogBtnFechar" class="outlined" autofocus>Fechar</button>
+        <button id="dialogBtnDesBloquear"></button>
+      </div>
+    </div>
+  </dialog>
+
+  <!-- Levando em conta boas práticas e performance, estamos importando nossos scripts no fim do Body -->
+  <script src="../base/dsi.js"></script>
+  <script src="home-adm.js"></script>
+</body>
+
+</html>
